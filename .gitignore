@@ -51,6 +51,10 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+*.db  
+#done to also allow db in the future
+
+
 
 # Translations
 *.mo
@@ -150,6 +154,7 @@ activemq-data/
 *.sage.py
 
 # Environments
+my_spotify_data/
 .env
 .envrc
 .venv
@@ -221,3 +226,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
